@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: georgia;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #857a8c;
+}
+
+h4 {
+  margin: 0px 20px 30px 20px;
+  color: #857a8c;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+p {
+  letter-spacing: normal;
+}
+
+hr {
+  width: 50%;
+  color: #857a8c;
+  margin: 30px 0px;
+}
+/*SECTION*/
+.container {
+  background-color: white;
+  width: 50%;
+  padding: 40px 40px 70px 40px;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+.container img {
+  width: 40%;
+}
+
+#subs {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.botao_container {
+  padding: 15px 10px;
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+/*CONTAINER 2 | CARDS*/
+
+.card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 20px 30px;
+  width: 60%;
+  place-items: center;
+}
+
+.item {
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+}
+.item p {
+  color: black;
+  padding: 0px 10px 5px 10px;
+}
+.relogio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start; /* This will align the element to the top of the container */
+}
+.relogio img {
+  width: 6%;
+  padding-top: 12px;
+  padding-right: 6px;
+}
+
+/**FOOTER 2*/
+.container_footer2 {
+  background-color: #857a8c;
+}
+
+.footer2 {
+  margin: 0 auto;
+  width: 70%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 50px 0px;
+}
+
+.item_footer2 {
+  text-align: center;
+  margin: 0px 50px;
+  color: #f2f2f2;
+}
+
+.item_footer2 .botao_container {
+  border-radius: 5px;
+}
+
+/*FOOTER 2 ICON*/
+.container_icon {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.item_icon {
+  margin: 10px;
+  width: 50%;
+}
+
+#email {
+  width: 10%;
+}
+
+/*FOOTER 3*/
+.container_footer3 {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+#logo_pessoal {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: none;
+  }
+  .container img {
+    width: 100%;
+  }
+  .card {
+    grid-template-columns: auto;
+  }
+  .container_icon {
+    grid-template-columns: auto auto;
+  }
+  .item_icon {
+    width: 25%;
+  }
+  .footer2 {
+    grid-template-columns: auto;
+  }
+}
